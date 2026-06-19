@@ -12,7 +12,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/<your-repo>.git'
+                git 'https://github.com/dharidost/terraform-azure.git'
             }
         }
 
