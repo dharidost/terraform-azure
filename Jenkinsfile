@@ -10,12 +10,6 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/dharidost/terraform-azure.git'
-            }
-        }
-
         stage('Terraform Init') {
             steps {
                 sh 'terraform init'
